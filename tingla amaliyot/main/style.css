@@ -1,0 +1,322 @@
+.container {
+    width: 1320px;
+    margin: auto;
+    max-width: 100%;
+
+}
+
+.navbar {
+    margin-top: 60px;
+}
+
+.hero_content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero_content-info {
+    width: 50%;
+}
+
+.hero_content-info h1 {
+    color: rgb(0, 0, 0);
+    font-family: SF Pro Display;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 95px;
+    letter-spacing: -2%;
+    text-align: left;
+    margin-top: 150px;
+    margin-bottom: 24px;
+}
+
+.hero_content-info p {
+    color: rgb(0, 0, 0);
+    font-family: SF Pro Display;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 70px;
+}
+
+.hero_content-info button {
+    border-radius: 8px;
+    background: rgb(15, 15, 84);
+    width: 181px;
+    height: 60px;
+    color: rgb(255, 255, 255);
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -1%;
+    text-align: center;
+    border: none;
+}
+
+.hero_content-img {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+
+.sec_one {
+    margin-top: 140px;
+    margin-bottom: 360px;
+}
+
+.one_content {
+    border-radius: 20px;
+    background: url(../images/sec_bg.png) center/cover no-repeat;
+    height: 500px;
+    width: 1100px;
+    margin: auto;
+}
+
+.shadow {
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.one_content .play {
+    width: 56.88px;
+    height: 56.88px;
+}
+
+.two_content {
+    display: flex;
+    height: 480px;
+    border-radius: 20px;
+    background: rgb(15, 15, 84);
+}
+
+.two_content-info {
+    padding-left: 80px;
+    width: 50%;
+}
+
+.two_content-info h2 {
+    color: rgb(255, 255, 255);
+    font-family: SF Pro Display;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -1%;
+    text-align: left;
+    margin-top: 126px;
+    margin-bottom: 30px;
+}
+
+.two_content-info p {
+    color: rgb(255, 255, 255);
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.two_content-img {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.two_content-img img {
+    height: 773px;
+    margin-top: -206px;
+}
+
+.sec_three {
+    margin-top: 226px;
+    margin-bottom: 360px;
+}
+
+.three_content {
+    display: flex;
+}
+
+.three_content-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.three_content-info {
+    width: 50%;
+}
+
+.three_content-info h2 {
+    margin-top: 170px;
+    margin-bottom: 30px;
+    color: rgb(0, 0, 0);
+    font-family: SF Pro Display;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -1%;
+    text-align: left;
+}
+
+.three_content-info p {
+    color: rgb(0, 0, 0);
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.four_content {
+    background: rgb(249, 224, 199);
+
+}
+
+.four_content h2 {
+    color: black !important;
+}
+
+.four_content p {
+    color: black !important;
+}
+
+.sec_five {
+    margin-top: 244px;
+    margin-bottom: 170px;
+}
+
+.five_content {
+    border-radius: 20px;
+    background: rgb(248, 248, 248);
+    height: 480px;
+    display: flex;
+}
+
+.five_content-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.five_content-info {
+    width: 50%;
+}
+
+.five_content-info h2 {
+    color: rgb(0, 0, 0);
+    font-family: SF Pro Display;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 160px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+}
+
+.five_content-info .brands img {
+    margin-right: 10px;
+}
+
+.d-none {
+    display: none;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.security {
+    color: rgb(0, 0, 0);
+    font-family: SF Pro Display;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 38px;
+    opacity: 0.5;
+}
+
+.footer_logo,
+.footer_menu {
+    width: 50%;
+}
+.footer_left {
+    display: flex;
+    width: 66%;
+}
+.footer_contact {
+    width: 33%;
+}
+
+.footer_menu {
+    margin: 0;
+}
+
+.footer_menu li {
+    list-style-type: none;
+    margin-bottom: 18px;
+    color: rgb(0, 0, 0);
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+}
+
+.phone_info {
+    margin-left: 16px;
+}
+
+.phone_info p {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: SF Pro Display;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+
+.phone_info a {
+    color: rgb(0, 0, 0);
+    font-family: SF Pro Display;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.icons {
+    margin-top: 32px;
+}
+
+.icons a {
+    margin-right: 24px;
+    text-decoration: none;
+}
+
